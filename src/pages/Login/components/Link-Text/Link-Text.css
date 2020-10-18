@@ -1,0 +1,13 @@
+.container-link-text{
+    display: inline-block;  
+    margin: 2.000em 0;  
+}
+
+.container-link-text a,span{
+ margin:0   0.3em 0 0;
+   
+}
+.container-link-text a{
+    color: #77C050;
+    text-decoration: none;
+}

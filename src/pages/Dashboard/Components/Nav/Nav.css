@@ -1,0 +1,6 @@
+.navbar{       
+display: grid;
+grid-template-columns:repeat(4,1fr) ;
+box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+background-color: #FCFCFC;
+}

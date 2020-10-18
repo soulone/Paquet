@@ -1,0 +1,36 @@
+/* [Grid] */
+.login-page-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, 100vh); 
+    grid-template: "box banner";
+    
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0em 8em;     
+    align-items: stretch;
+    justify-items: stretch;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+
+.box{
+    grid-area: box;
+}
+
+.banner{
+    grid-area: banner;
+}
+
+@media screen and (max-width: 768px) {
+    .login-page-container{                         
+        grid-template: "box"
+                       "box";
+        padding: 0em 2em;
+    }
+
+    .banner-container{
+        display: none!important;
+    }
+    
+}

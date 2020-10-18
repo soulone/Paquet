@@ -1,0 +1,36 @@
+.aside-bar{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    width: max-content;
+    height: 100vh;    
+    background-color:#FFFFFF;  
+}
+
+
+
+
+.btn-aside{
+    color:#77C050;    
+    font-size: large;
+    font-weight: 800;
+    text-decoration: none;
+    ;
+}
+
+.btn-aside,a:hover{
+    color:#A6E087
+}
+
+.aside-bar ul li,a {
+    list-style: none;
+    color:#77C050;    
+    font-size: large;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 3em;
+    margin-bottom:3em;
+}
+
+
+

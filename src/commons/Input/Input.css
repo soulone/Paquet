@@ -1,0 +1,28 @@
+.input-container{
+    margin: 1em 0em; 
+}
+
+.input-container input{
+    box-sizing: border-box;
+    border-radius:1.1em;
+    background-color:#ffffff;
+    border: 1px solid rgba(242, 242, 242, 0.794);
+    padding: 1.1em 1.5em;     
+    font-size: medium;
+    width: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.input-container:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+
+    .input-container{
+        width: 100%; 
+        font-size: large;   
+    }
+}
+
+

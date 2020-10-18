@@ -1,0 +1,7 @@
+.box{ 
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.4fr 0.4fr 0.4fr 0.8fr 0.8fr autofill 1fr; 
+    padding: 4em 2em; 
+}
+

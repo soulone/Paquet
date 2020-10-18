@@ -1,0 +1,40 @@
+.btn{
+    min-height:4.250em;
+    margin: 2.000em 0;
+    border : none;
+    border-radius:1.313em;
+    background-color: rgba(255,255,255);    
+    transition: all 0.2s;
+}
+
+.btn span{
+    padding:1.500em 3.750em;
+    font-size: small;
+    
+}
+
+.btn:hover ,.btn.hover{    
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 9px 9px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    background-color:#A6E087;
+}
+
+.btn:active{
+    background-color:#4BA21D;
+}
+
+
+.btn-primary{
+    background-color:#77C050;
+    color: #ffff;
+}
+
+@media screen and (max-width:768px){
+
+    .btn{
+        width: 100%;    
+    }
+    .btn span{
+    font-size: medium;
+    }
+}
